@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
+  
+</head>
+<body>
+	<div class='main'>
+		<div class='content'>
+			<h1>Calculate your BMI</h1>
+			<!--Will add this options later
+			<ul class='first'>
+				<li class='measure'><p>Age</p></li>
+				<li><input type='number' max='105' id='age'>Years</input></li>
+			</ul>
+			<ul>
+				<li class='measure'><p>Sex</p></li>
+				<li><input type='radio' value='male' name='sex' checked>Male
+					<input type='radio' value='female' name='sex'>Female
+				</li>
+			</ul>-->
+			<ul class='first'>
+				<li class='measure'><p>Height</p></li>
+				<li><input type='number' min='100' max='240' id='height'>sm</li>
+			</ul>
+			<ul>
+				<li class='measure'><p>Weight</p></li>
+				<li><input type='number' min='15' id='weight'>kg</li>
+			</ul>
+			</br>
+			<input type='button' value='Calculate BMI' onclick='calc(this)' id='calc'>
+			<div id='bmi'></div>
+		</div>
+	</div>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

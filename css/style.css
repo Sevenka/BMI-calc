@@ -1,0 +1,95 @@
+﻿@import url(reset.css);
+@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/Lato-Bold.eot'); 
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Lato-Bold.woff2') format('woff2'),
+         url('../fonts/Lato-Bold.woff') format('woff'), 
+         url('../fonts/Lato-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Regular.woff2') format('woff2'),
+         url('../fonts/Lato-Regular.woff') format('woff'),
+         url('../fonts/Lato-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+body {
+	background:url(../images/background.jpg) no-repeat top center;
+	background-size: 100%;
+	font: 20px 'LatoWeb';
+}
+.main {
+	width:565px;
+	height:512px;
+	background:#fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -253px 0 0 -282px;
+	border: 1px solid #c2c2c2;
+	border-radius:8px;
+}
+.content {
+	width:423px;
+	height:423px;
+	position:relative;
+	padding:45px 72px;
+}
+.content h1 {
+	text-align:center;
+	font: 27px 'LatoWebBold';
+	color:#fb5b1f;
+	text-transform:uppercase;
+}
+.content ul {
+	margin-top:10px;
+}
+.content ul.first{
+	margin-top:35px;
+}
+.content li {
+	display:inline-block;
+}
+.content li.measure{
+	width:80px;
+	height:36px;
+}
+.content li:first-child{
+	margin:0;
+}
+input[type='number'] {
+	width:127px;
+	height:20px;
+}
+input[type='radio'], #calc{
+	cursor:pointer;
+}
+#calc{
+	margin:0 auto;
+	display:block;
+	width:207px;
+	height:53px;
+	background:#fb5b1f;
+	border:none;
+	border-radius:8px;
+	color:#fff;
+	font:20px 'LatoWebBold';
+	text-transform:uppercase;
+}
+#calc:hover {
+	background:#fff;
+	color:#fb5b1f;
+	border: 1px solid #fb5b1f;
+	
+}
+#bmi {
+	margin-top:25px;
+}
