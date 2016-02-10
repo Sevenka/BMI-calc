@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <script src="scripts/jquery-2.2.0.min.js"></script>
 </head>
 <body>
+
 	<div class='main'>
 		<div class='content'>
 			<h1>Calculate your BMI</h1>
@@ -23,7 +25,7 @@
 				<li><input type='number' min='15' max='500' id='weight'>&nbsp;kg</li>
 			</ul>
 			</br>
-			<input type='button' value='Calculate BMI' onclick='calc(this)' id='calc'>
+			<button id='calc'>Calculate BMI</button>
 			<div id='bmi'></div>
 		</div>
 	</div>
